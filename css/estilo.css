@@ -1,0 +1,141 @@
+:root{
+    --cor_01: #1487ff;
+    --cor_02: #07AFE8;
+    --c_white: #ffffff;
+    --c_gray: #f1f1f1;
+}
+
+body{
+    background-image: url("../imagens\ para\ o\ site/fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+table{
+    background-color: var(--c_white);
+    width: 600px;
+    margin: auto;
+}
+
+#nav_box{
+    border-top: 2px solid var(--cor_01);
+    background-color: var(--c_gray);
+    padding: 0px;
+    margin: 1px;
+    height: 40px;
+}
+
+#nav_box ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+#nav_box li{
+    float: left
+}
+
+#nav_box a{
+    padding: 12px;
+    text-decoration: none;
+}
+
+.ativo{
+    background-color:#1a1c9b;
+    color: var(--c_white);
+}
+#nav_box a:hover:not(.ativo){
+    background-color:rgb(29, 40, 194);
+    color:rgb(255, 255, 255);
+    transition: 0.4s;
+}
+
+#image_box{
+    width: 31px;
+}
+
+#image_box img{
+    width: 100%;
+}
+
+.article_box{
+    padding: 10px;
+}
+
+.article_box1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.article_box1 img{
+  max-width: 100%;
+  height: auto;
+}
+
+.article_box h2{
+    border-top: 2px solid var(--cor_01);
+    background-color: var(--c_gray);
+    padding: 5px;
+}
+
+#footer_box{
+    border-top: 1px solid var(--cor_01);
+    background-color: var(--c_gray);
+    text-align: center;
+    height: 30px;
+    font-size: 28px;
+}
+
+#header_box img{
+    width: 600px;
+    height: 300px;
+}
+
+.centro {
+  display: block; 
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.botao {
+  display:inline-flex; 
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+
+}
+
+.botao:hover {
+  background-color: #005f15;
+}
+
+.botao:active {
+  background-color: #1e7e34;
+  transform: translateY(6px);
+}
+
+.robux800{
+    padding: 50px;
+}
+
+.robux1400{
+    padding: 50px;
+}
+
+.robux2700{
+    padding: 50px;
+}
+
+.robux100{
+    width: 200px;
+    padding: 50px;
+}
